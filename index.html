@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sharedpro Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="myscript.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Contact Us</h1>
+      <div id="error_message"></div>
+      <div class="form">
+          <form name="myForm"  onsubmit="return validateForm()" method="post" >
+          <div  class="input_field">
+            <input type="text" name="fname" placeholder="First Name" >
+          </div>
+          <div class="input_field">
+            <input type="text" name="lname"  placeholder="Last Name" >
+          </div>
+          <div class="input_field">
+            <input type="email" name="emailid"  placeholder="Email ID" >
+          </div>
+          <div class="input_field">
+            <input type="number" name="phonenum"  placeholder="Phone no." >
+          </div>
+          <div class="input_field">
+            <input type="date" name="dateofbirth"  placeholder="Date of Birth" >
+          </div>
+          <div class="input_field">
+            <input type="password" name="password"  placeholder="Password">
+          </div>
+          <div class="button">
+            <input type="submit" value="Register" class="button">
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
